@@ -26,3 +26,24 @@ This is a terminal-based memory game written in C. The game consists of 36 cards
 Compile the game using GCC:
 ```bash
 gcc -o memory-game memory-game.c
+
+Running the Game
+Run the compiled executable:
+```bash
+./memory-game
+Example Output
+Player 1 flips two cards:
+
+Card 1: 'A'
+Card 2: 'a'
+Player 1 scores 1 point.
+Player 2 flips a joker:
+
+Player 2 scores 1 point, and the flipped cards are reset.
+The game continues until all pairs are matched.
+
+Contribution
+Feel free to fork this repository and submit pull requests for improvements or additional features.
+
+License
+This project is open-source and available under the MIT License.
