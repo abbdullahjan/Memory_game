@@ -24,7 +24,7 @@ This is a terminal-based memory game written in C. The game consists of 36 cards
 
 ### Compilation
 Compile the game using GCC:
-```bash
+
 gcc -o memory-game memory-game.c
 
 Running the Game
